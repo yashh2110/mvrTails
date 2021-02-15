@@ -17,14 +17,16 @@
         include "./components/nav.php";
     ?>
     <!-- home page -->
+    <?php 
+        include "./components/home.php";
+    ?>
 
-    
-    
+
     <!-- footer -->
     <?php 
         include "./components/footer.php";
     ?>
 </body>
-<?php include("./components/scripts.php")?>
-<script src="./js/scripts.js"
+<?php include("./components/scripts.php") ?>
+<script src="./js/scripts.js"></script>
 </html>
