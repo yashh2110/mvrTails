@@ -3,18 +3,36 @@
         <div class="carousel-inner">
       <div class="carousel-item active" >
             <div class="carousel-img" style="background: url('./images/img1.jpeg')">
-                <div class="main-text">
-                    <h3 class="main-text-head" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">NVR Tiles</h3>
-                    <p class="main-text-dis" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1500">Make your home beautiful</p>
+                <div class="wrapper">
+                    <div class="main-text container-sm">
+                        <h3 class="main-text-head" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000"><span style="color:rgb(255, 255, 255);text-shadow:0 1px 3px lightgrey">NVR</span> Tiles</h3>
+                        <p class="main-text-dis" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1500">Makes your home beautiful</p>
+                        <button  data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1700" class="button mr-auto ml-0" style="box-shadow:0 2px 5px black">Products</button>
+                    </div>
                 </div>
+
             </div>
         </div>
             <div class="carousel-item ">
                 <div class="carousel-img" style="background: url('./images/img2.jpg')">
+                    <div class="wrapper">
+                        <div class="main-text container-sm">
+                            <h3 class="main-text-head" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000"><span style="color:rgb(255, 255, 255);text-shadow:0 1px 3px lightgrey">NVR</span> Tiles</h3>
+                            <p class="main-text-dis" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1500">Makes your home beautiful</p>
+                            <button  data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1700" class="button mr-auto ml-0" style="box-shadow:0 2px 5px black">Products</button>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="carousel-item ">
                 <div class="carousel-img" style="background: url('./images/img1.jpeg')">
+                    <div class="wrapper">
+                        <div class="main-text container-sm">
+                            <h3 class="main-text-head" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000"><span style="color:rgb(255, 255, 255);text-shadow:0 1px 3px lightgrey">NVR</span> Tiles</h3>
+                            <p class="main-text-dis" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1500">Makes your home beautiful</p>
+                            <button  data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1700" class="button mr-auto ml-0" style="box-shadow:0 2px 5px black">Products</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -67,36 +85,36 @@
 </div>
 <br id="whyus">
 
-<div  class="whyus container-sm p-3">
+<div class="whyus container-sm p-3" data-aos="fade-up" data-aos-duration="1000" >
     <h4 class="text-center heading">WHY US</h4>
     <hr>
     <p class="text-center">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis cumque ipsa et distinctio omnis, nam ipsam iste eaque corrupti qui vitae sed assumenda fugit molestias ducimus laboriosam accusantium laudantium reiciendis!
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum ut repellendus dignissimos iusto repudiandae inventore similique, voluptatum aliquid odio, magni quas quam quia exercitationem asperiores, eligendi ratione? Repellat, quasi voluptatum.
     </p>
-    <div class="main-vid">
+    <div class="main-vid" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
         <video src="./images/vid.mp4" autoplay muted controls></video>
     </div>
 </div>
 <br>
-<div class="about container-sm">
+<div class="about container-sm" data-aos="fade-up" data-aos-duration="1000">
     <h4 class="text-center heading">What We Have</h4>
     <hr>
-    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sint labore inventore, quaerat rem optio alias sed accusamus quo unde totam quae consectetur doloremque consequuntur dolorem fuga repellat autem enim.
+    <p class="text-center" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sint labore inventore, quaerat rem optio alias sed accusamus quo unde totam quae consectetur doloremque consequuntur dolorem fuga repellat autem enim.
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates accusantium aspernatur molestiae asperiores hic dolore, perspiciatis earum iusto distinctio suscipit debitis corrupti accusamus voluptatem quae, iure adipisci fugit facere sapiente?
     </p>
-    <div class="about-img-div">
-        <div class="about-img" style="background: url('./images/img2.jpeg');">
+    <div class="about-img-div" >
+        <div class="about-img" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" style="background: url('./images/img2.jpeg');">
 
         </div>  
-        <div class="about-img" style="background: url('./images/img3.jpeg')">
+        <div class="about-img" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200" style="background: url('./images/img3.jpeg')">
             
         </div>
     </div>
     <button type="button" class="button mr-5">More</button>
 </div>
 <br>
-<div class="location container-sm">
+<div class="location container-sm"  data-aos="fade-up" data-aos-duration="1000">
     <h4 class="text-center heading">LOCATION</h4>
     <hr>
     <div class="map-div">

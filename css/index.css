@@ -68,6 +68,9 @@ a:hover {
   color: #333;
   font-size: 1.3em;
 }
+.phone:hover {
+  font-weight: 500;
+}
 .home {
   position: relative;
   width: 100%;
@@ -81,7 +84,32 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  mix-blend-mode: multiply;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.795),
+    rgba(255, 255, 255, 0.123)
+  );
+}
+.main-text {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgb(255, 255, 255);
+  z-index: 10;
+}
+.main-text-head {
+  font-size: 4rem;
+}
+.main-text-dis {
+  font-size: 2rem;
+  letter-spacing: 5px;
 }
 .down {
   position: absolute;
@@ -188,16 +216,14 @@ video:focus {
 }
 
 .rights {
-  position: absolute;
-  top: 93%;
+  position: relative;
   white-space: nowrap;
-  left: 50%;
-  transform: translateX(-50%);
+  text-align: center;
   color: rgba(255, 255, 255, 0.616);
   font-size: 1em;
 }
 .footer {
-  position: relative;
+  margin: 0;
   background-color: #333;
   padding: 20px;
   margin-top: 20px;
@@ -211,18 +237,17 @@ video:focus {
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  opacity: 0.9;
+  justify-content: space-evenly;
 }
 .footerlistdiv div {
-  width: 170px;
   margin-right: 20px;
   margin-left: 20px;
 }
 .footerlistdiv p {
   padding: 5px;
   margin-bottom: 4px;
-  font-size: 1.3em;
-  font-weight: 500;
+  font-size: 1.1em;
   cursor: pointer;
 }
 .footerlistdiv p b {
@@ -256,22 +281,7 @@ video:focus {
 .footerlist li:hover a {
   color: rgba(129, 129, 211, 0.849);
 }
-.footertop {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-}
-.footertop a {
-  padding: 15px;
-  width: 30%;
-  background-color: rgba(211, 8, 8, 0.877);
-  text-align: center;
-  transition: 0.25s ease-in-out;
-}
-.footertop a:hover {
-  background-color: rgba(163, 5, 5, 0.979);
-  cursor: pointer;
-}
+
 @media screen and (max-width: 768px) {
   .nav-items {
     position: absolute;
