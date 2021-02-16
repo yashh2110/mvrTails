@@ -103,10 +103,7 @@ a:hover {
   margin-bottom: 5px;
   cursor: pointer;
   color: #333;
-  font-size: 1.3em;
-}
-.phone:hover {
-  font-weight: 500;
+  font-size: 1.1em;
 }
 
 .home {
